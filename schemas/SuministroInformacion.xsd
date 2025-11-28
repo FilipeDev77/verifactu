@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:sf="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroInformacion.xsd"
+           targetNamespace="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroInformacion.xsd"
+           elementFormDefault="qualified">
+
+  <!-- Type Cabecera -->
+  <xs:complexType name="CabeceraType">
+    <xs:sequence>
+      <xs:element name="IDEmisorFactura" type="xs:string"/>
+      <xs:element name="NumSerieFactura" type="xs:string"/>
+      <xs:element name="FechaExpedicionFactura" type="xs:string"/>
+      <xs:element name="IDDestinatarioFactura" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Type RegistroAlta -->
+  <xs:complexType name="RegistroFacturacionAltaType">
+    <xs:sequence>
+      <xs:element name="TipoFactura" type="xs:string"/>
+      <xs:element name="BaseImponible" type="xs:string"/>
+      <xs:element name="TipoImpositivo" type="xs:string"/>
+      <xs:element name="CuotaRepercutida" type="xs:string"/>
+      <xs:element name="ImporteTotal" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Éléments globaux -->
+  <xs:element name="RegistroAlta" type="sf:RegistroFacturacionAltaType"/>
+  <xs:element name="RegistroAnulacion" type="xs:string"/>
+
+</xs:schema>

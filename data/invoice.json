@@ -1,0 +1,10 @@
+{
+  "issuer_nif": "B12345678",
+  "invoice_number": "FAC-2025-001",
+  "invoice_date": "2025-11-25",
+  "recipient_nif": "C98765432",
+  "amount_base": 1000.00,
+  "vat_rate": 21.00,
+  "vat_amount": 210.00,
+  "total_amount": 1210.00
+}

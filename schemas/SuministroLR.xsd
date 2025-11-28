@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:sfLR="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroLR.xsd"
+           xmlns:sf="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroInformacion.xsd"
+           targetNamespace="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroLR.xsd"
+           elementFormDefault="qualified">
+
+  <!-- Import du schéma des informations -->
+  <xs:import namespace="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroInformacion.xsd"
+             schemaLocation="SuministroInformacion.xsd"/>
+
+  <!-- Élément racine -->
+  <xs:element name="RegFactuSistemaFacturacion">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Cabecera vient du schéma SuministroInformacion -->
+        <xs:element name="Cabecera" type="sf:CabeceraType"/>
+        <!-- RegistroFactura défini ci-dessous -->
+        <xs:element name="RegistroFactura" type="sfLR:RegistroFacturaType" maxOccurs="1000"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Type de RegistroFactura -->
+  <xs:complexType name="RegistroFacturaType">
+    <xs:sequence>
+      <xs:choice>
+        <!-- Référence aux éléments globaux définis dans SuministroInformacion.xsd -->
+        <xs:element ref="sf:RegistroAlta"/>
+        <xs:element ref="sf:RegistroAnulacion"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
