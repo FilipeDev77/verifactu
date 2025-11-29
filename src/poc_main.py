@@ -1,10 +1,14 @@
 import json
 import sys
 import datetime
+import os
 from transform import json_to_xml
 from crypto import generate_hash, get_timestamp, store_crypto, get_previous_hash, compute_huella
 from validator import validate_xml
 from database import init_db, session, Issuer, Recipient, Invoice, TransmissionLog
+from utils import store_xml
+
+
 
 def main():
     if len(sys.argv) < 2:
@@ -36,6 +40,9 @@ def main():
     xml_string = json_to_xml(json_path, huella=huella, fecha_hora_iso=timestamp)
     print("=== XML généré ===")
     print(xml_string)
+
+    # Sauvegarde du XML dans un fichier
+    store_xml(xml_string, json_path)
 
     # 6. Valider le XML
     valid, message = validate_xml(xml_string, "SuministroLR.xsd")
@@ -90,6 +97,7 @@ def main():
     session.commit()
 
     print("Facture", invoice.series_number, "insérée avec ID", invoice.invoice_id)
+
 
 if __name__ == "__main__":
     main()
