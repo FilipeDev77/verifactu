@@ -1,0 +1,10 @@
+{
+  "issuer_nif": "A55990123",
+  "invoice_number": "FAC-2025-002",
+  "invoice_date": "2025-11-28",
+  "recipient_nif": "Z44332211",
+  "amount_base": 750.50,
+  "vat_rate": 21.00,
+  "vat_amount": 157.61,
+  "total_amount": 908.11
+}

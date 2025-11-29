@@ -1,0 +1,10 @@
+{
+  "issuer_nif": "B77291045",
+  "invoice_number": "FAC-2025-003",
+  "invoice_date": "2025-11-29",
+  "recipient_nif": "X11223344",
+  "amount_base": 542.30,
+  "vat_rate": 21.00,
+  "vat_amount": 113.88,
+  "total_amount": 656.18
+}
