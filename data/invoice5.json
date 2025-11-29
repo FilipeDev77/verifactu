@@ -1,0 +1,17 @@
+{
+  "invoice_number": "FAC-2025-005",
+  "invoice_date": "2025-12-02",
+  "issuer": {
+    "nombre_razon": "Tech Innovators SA",
+    "nif": "B11223344"
+  },
+  "recipient": {
+    "nombre_razon": "Solutions Client SARL",
+    "nif": "X55667788"
+  },
+  "amount_base": 875.50,
+  "vat_rate": 21.00,
+  "vat_amount": 183.86,
+  "total_amount": 1059.36,
+  "tipo_factura": "F1"
+}
