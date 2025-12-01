@@ -1,0 +1,17 @@
+{
+  "issuer": {
+    "nif": "B22334466",
+    "nombre_razon": "dta"
+  },
+  "recipient": {
+    "nif": "C99887755",
+    "nombre_razon": "BTA SA"
+  },
+  "invoice_number": "FAC-2025-020",
+  "invoice_date": "2025-10-15",
+  "tipo_factura": "F1",
+  "amount_base": 2500.00,
+  "vat_rate": 15.00,
+  "vat_amount": 220.00,
+  "total_amount": 2715.00
+}

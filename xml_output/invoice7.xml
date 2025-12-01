@@ -1,0 +1,55 @@
+<sfLR:RegFactuSistemaFacturacion xmlns:sfLR="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroLR.xsd" xmlns:sf="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroInformacion.xsd">
+  <sfLR:Cabecera>
+    <sf:ObligadoEmision>
+      <sf:NombreRazon>dta</sf:NombreRazon>
+      <sf:NIF>B22334466</sf:NIF>
+    </sf:ObligadoEmision>
+  </sfLR:Cabecera>
+  <sfLR:RegistroFactura>
+    <sf:RegistroAlta>
+      <sf:IDVersion>1.0</sf:IDVersion>
+      <sf:IDFactura>
+        <sf:IDEmisorFactura>B22334466</sf:IDEmisorFactura>
+        <sf:NumSerieFactura>FAC-2025-020</sf:NumSerieFactura>
+        <sf:FechaExpedicionFactura>15-10-2025</sf:FechaExpedicionFactura>
+      </sf:IDFactura>
+      <sf:NombreRazonEmisor>dta</sf:NombreRazonEmisor>
+      <sf:TipoFactura>F1</sf:TipoFactura>
+      <sf:DescripcionOperacion>Venta de bienes/servicios</sf:DescripcionOperacion>
+      <sf:Destinatarios>
+        <sf:IDDestinatario>
+          <sf:NombreRazon>BTA SA</sf:NombreRazon>
+          <sf:NIF>C99887755</sf:NIF>
+        </sf:IDDestinatario>
+      </sf:Destinatarios>
+      <sf:Desglose>
+        <sf:DetalleDesglose>
+          <sf:Impuesto>01</sf:Impuesto>
+          <sf:CalificacionOperacion>S1</sf:CalificacionOperacion>
+          <sf:TipoImpositivo>15.00</sf:TipoImpositivo>
+          <sf:BaseImponibleOimporteNoSujeto>2500.00</sf:BaseImponibleOimporteNoSujeto>
+          <sf:CuotaRepercutida>220.00</sf:CuotaRepercutida>
+        </sf:DetalleDesglose>
+      </sf:Desglose>
+      <sf:CuotaTotal>220.00</sf:CuotaTotal>
+      <sf:ImporteTotal>2715.00</sf:ImporteTotal>
+      <sf:Encadenamiento>
+        <sf:PrimerRegistro>S</sf:PrimerRegistro>
+      </sf:Encadenamiento>
+      <sf:SistemaInformatico>
+        <sf:NombreRazon>dta</sf:NombreRazon>
+        <sf:NIF>B22334466</sf:NIF>
+        <sf:NombreSistemaInformatico>Fincargo-Verifactu</sf:NombreSistemaInformatico>
+        <sf:IdSistemaInformatico>FC</sf:IdSistemaInformatico>
+        <sf:Version>1.0.0</sf:Version>
+        <sf:NumeroInstalacion>INST-001</sf:NumeroInstalacion>
+        <sf:TipoUsoPosibleSoloVerifactu>N</sf:TipoUsoPosibleSoloVerifactu>
+        <sf:TipoUsoPosibleMultiOT>S</sf:TipoUsoPosibleMultiOT>
+        <sf:IndicadorMultiplesOT>N</sf:IndicadorMultiplesOT>
+      </sf:SistemaInformatico>
+      <sf:FechaHoraHusoGenRegistro>2025-12-01T09:57:54.918839</sf:FechaHoraHusoGenRegistro>
+      <sf:TipoHuella>01</sf:TipoHuella>
+      <sf:Huella>4417ebb70127ac4497aecb4bf1c69f0e3adaa05a5ccb89dd6f2255db5574c0a3</sf:Huella>
+    </sf:RegistroAlta>
+  </sfLR:RegistroFactura>
+</sfLR:RegFactuSistemaFacturacion>

@@ -1,0 +1,17 @@
+{
+  "issuer": {
+    "nif": "B22334455",
+    "nombre_razon": "Green Energy SL"
+  },
+  "recipient": {
+    "nif": "C99887766",
+    "nombre_razon": "EcoBuild SA"
+  },
+  "invoice_number": "FAC-2025-010",
+  "invoice_date": "2025-11-15",
+  "tipo_factura": "F1",
+  "amount_base": 2000.00,
+  "vat_rate": 10.00,
+  "vat_amount": 200.00,
+  "total_amount": 2200.00
+}

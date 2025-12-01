@@ -1,0 +1,55 @@
+<sfLR:RegFactuSistemaFacturacion xmlns:sfLR="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroLR.xsd" xmlns:sf="https://www2.agenciatributaria.gob.es/static_files/common/internet/dep/aplicaciones/es/aeat/tike/cont/ws/SuministroInformacion.xsd">
+  <sfLR:Cabecera>
+    <sf:ObligadoEmision>
+      <sf:NombreRazon>Green Energy SL</sf:NombreRazon>
+      <sf:NIF>B22334455</sf:NIF>
+    </sf:ObligadoEmision>
+  </sfLR:Cabecera>
+  <sfLR:RegistroFactura>
+    <sf:RegistroAlta>
+      <sf:IDVersion>1.0</sf:IDVersion>
+      <sf:IDFactura>
+        <sf:IDEmisorFactura>B22334455</sf:IDEmisorFactura>
+        <sf:NumSerieFactura>FAC-2025-010</sf:NumSerieFactura>
+        <sf:FechaExpedicionFactura>15-11-2025</sf:FechaExpedicionFactura>
+      </sf:IDFactura>
+      <sf:NombreRazonEmisor>Green Energy SL</sf:NombreRazonEmisor>
+      <sf:TipoFactura>F1</sf:TipoFactura>
+      <sf:DescripcionOperacion>Venta de bienes/servicios</sf:DescripcionOperacion>
+      <sf:Destinatarios>
+        <sf:IDDestinatario>
+          <sf:NombreRazon>EcoBuild SA</sf:NombreRazon>
+          <sf:NIF>C99887766</sf:NIF>
+        </sf:IDDestinatario>
+      </sf:Destinatarios>
+      <sf:Desglose>
+        <sf:DetalleDesglose>
+          <sf:Impuesto>01</sf:Impuesto>
+          <sf:CalificacionOperacion>S1</sf:CalificacionOperacion>
+          <sf:TipoImpositivo>10.00</sf:TipoImpositivo>
+          <sf:BaseImponibleOimporteNoSujeto>2000.00</sf:BaseImponibleOimporteNoSujeto>
+          <sf:CuotaRepercutida>200.00</sf:CuotaRepercutida>
+        </sf:DetalleDesglose>
+      </sf:Desglose>
+      <sf:CuotaTotal>200.00</sf:CuotaTotal>
+      <sf:ImporteTotal>2200.00</sf:ImporteTotal>
+      <sf:Encadenamiento>
+        <sf:PrimerRegistro>S</sf:PrimerRegistro>
+      </sf:Encadenamiento>
+      <sf:SistemaInformatico>
+        <sf:NombreRazon>Green Energy SL</sf:NombreRazon>
+        <sf:NIF>B22334455</sf:NIF>
+        <sf:NombreSistemaInformatico>Fincargo-Verifactu</sf:NombreSistemaInformatico>
+        <sf:IdSistemaInformatico>FC</sf:IdSistemaInformatico>
+        <sf:Version>1.0.0</sf:Version>
+        <sf:NumeroInstalacion>INST-001</sf:NumeroInstalacion>
+        <sf:TipoUsoPosibleSoloVerifactu>N</sf:TipoUsoPosibleSoloVerifactu>
+        <sf:TipoUsoPosibleMultiOT>S</sf:TipoUsoPosibleMultiOT>
+        <sf:IndicadorMultiplesOT>N</sf:IndicadorMultiplesOT>
+      </sf:SistemaInformatico>
+      <sf:FechaHoraHusoGenRegistro>2025-11-30T15:39:34.399291</sf:FechaHoraHusoGenRegistro>
+      <sf:TipoHuella>01</sf:TipoHuella>
+      <sf:Huella>5b9d6f7415bd9dbfa3d74e077c17c7541f0feb301ca956f151a4829b8dcf2289</sf:Huella>
+    </sf:RegistroAlta>
+  </sfLR:RegistroFactura>
+</sfLR:RegFactuSistemaFacturacion>
